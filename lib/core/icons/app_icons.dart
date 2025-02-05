@@ -17,5 +17,7 @@ class AppIcons {
   static const String downloadIcon = "${_basePath}download_icon.png";
   static const String senderIcon = "${_basePath}sender_icon.png";
   static const String quizIcon = "${_basePath}quiz_icon.png";
+  static const String materialsIcon = "${_basePath}materials_icon.png";
+  static const String announcementsIcon = "${_basePath}announcements_icon.png";
 
 }

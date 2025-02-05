@@ -38,6 +38,7 @@ class _CoursesDetaliseScreenState extends State<CoursesDetaliseScreen> {
       body: screensCourses[selectedIndex],
       bottomNavigationBar:
       BottomNavigationBar(
+
           selectedLabelStyle: const TextStyle(fontSize: 12,fontFamily: "Janna",fontWeight: FontWeight.bold),
           onTap: (index) {
             setState(() {
@@ -59,7 +60,7 @@ class _CoursesDetaliseScreenState extends State<CoursesDetaliseScreen> {
           showUnselectedLabels: true,
           items:[
             BottomNavigationBarItem(
-              icon: CustomBottomNavBar(iconPath: AppIcons.pdfIcon,
+              icon: CustomBottomNavBar(iconPath: AppIcons.materialsIcon,
                 isSelected: selectedIndex == 0,),
               label: "Materials",
             ),
@@ -74,7 +75,7 @@ class _CoursesDetaliseScreenState extends State<CoursesDetaliseScreen> {
               label: "Quizzes",
             ),
             BottomNavigationBarItem(
-              icon: CustomBottomNavBar(iconPath: AppIcons.userIcon,
+              icon: CustomBottomNavBar(iconPath: AppIcons.announcementsIcon,
                 isSelected: selectedIndex == 3,),
               label: "Announcements",
             ),
