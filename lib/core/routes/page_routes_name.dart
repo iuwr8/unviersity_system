@@ -1,6 +1,7 @@
 abstract class PageRoutesName {
 
   static const initial = "/";
+  static const onBoardingScreen = "/on_boarding_screen";
   static const loginScreen = "/login_screen";
   static const homeScreen = "/home_screen";
   static const homeScreen2 = "/home_screen2";

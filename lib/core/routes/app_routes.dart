@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:unviersty_system/core/routes/page_routes_name.dart';
+import 'package:unviersty_system/on_boarding/on_boarding_screen.dart';
 import 'package:unviersty_system/screens/change_password_screen/change_password_screen.dart';
 import 'package:unviersty_system/screens/courses_detalise_screen/announcements_screen.dart';
 import 'package:unviersty_system/screens/courses_detalise_screen/materials_screen.dart';
@@ -29,6 +30,11 @@ abstract class AppRouts{
           settings: settings,
         );
       }
+      case PageRoutesName.onBoardingScreen: {
+        return MaterialPageRoute(builder: (context) =>  OnBoardingScreen(),
+          settings: settings,
+        );
+      }
       case PageRoutesName.loginScreen: {
         return MaterialPageRoute(builder: (context) => const LoginScreen(),
           settings: settings,
@@ -39,7 +45,6 @@ abstract class AppRouts{
           settings: settings,
         );
       }
-
       case PageRoutesName.homeScreen2: {
         return MaterialPageRoute(builder: (context) => const HomeScreen2(),
           settings: settings,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:unviersty_system/core/colors/app_colors.dart';
 import 'package:unviersty_system/core/icons/app_icons.dart';
+import 'package:unviersty_system/on_boarding/on_boarding_screen.dart';
 import 'package:unviersty_system/screens/courses_screen/courses_screen.dart';
 import 'package:unviersty_system/screens/news_screen/news_screen.dart';
 import 'package:unviersty_system/screens/profile_screen/profile_screen.dart';

@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Duration(seconds: 3),
             () => Navigator.pushNamed(
           context,
-          PageRoutesName.loginScreen,
+          PageRoutesName.onBoardingScreen,
         )
     );
   }
